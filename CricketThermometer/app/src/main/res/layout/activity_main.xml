@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/teal_Light"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/Thermometer"
+        android:layout_width="203dp"
+        android:layout_height="196dp"
+        android:layout_gravity="center_horizontal"
+        app:srcCompat="@drawable/therm" />
+
+    <TextView
+        android:id="@+id/TVExplination"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:text="TextView" />
+
+    <EditText
+        android:id="@+id/Chirps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:ems="10"
+        android:hint="@string/temp_hint"
+        android:inputType="number"
+        android:textColor="#000000"
+        android:textColorHighlight="#00FFFFFF"
+        android:textColorLink="#00FFFFFF" />
+
+    <Button
+        android:id="@+id/btnCalc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/teal_200"
+        android:text="@string/btnDesc"
+        app:backgroundTint="@color/teal_200" />
+
+    <TextView
+        android:id="@+id/TVanswer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center_horizontal"
+        android:text="TextView" />
+</LinearLayout>

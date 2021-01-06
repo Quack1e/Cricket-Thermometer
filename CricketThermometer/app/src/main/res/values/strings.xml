@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Cricket Thermometer</string>
+    <string name="temp_hint">Enter the number of Chirps heard</string>
+    <string name="btnDesc">Calculate</string>
+    <string name="AnswerStart">The answer in Celsius is: </string>
+    <string name="Explanation">You can use the number of chirps that a cricket makes to calculate the temperature.
+        \nJust count the number of chirps that it makes in 25 seconds, and enter it into the calculator</string>
+</resources>
